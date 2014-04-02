@@ -1,0 +1,120 @@
+
+/* 
+media query styles
+*/
+
+
+@media (min-width: 0px) 
+  { var:after {content: 'x-small';
+			font-family: 'Roboto', sans-serif;
+			font-weight: 100;
+			font-size: 250%;
+			color:white;
+			font-style: normal;
+  }}
+
+ @media (min-width: 0px) 
+  { code:after {content: 'Less than 768px';
+			font-family: 'Roboto', sans-serif;
+			font-weight: 100;
+			font-size: 250%;
+			color:white;
+			font-style: normal;
+  }}
+
+
+@media (min-width: 768px) 
+  { var:after {content: 'small';color:white;}}
+
+@media (min-width: 768px) 
+  { code:after {content: '768px and up to 991px';
+			font-family: 'Roboto', sans-serif;
+			font-weight: 100;
+			font-size: 250%;
+			color:white;
+			font-style: normal;
+  }}
+
+
+@media (min-width: 992px) 
+  { var:after {content: 'medium';color:white;}}
+@media (min-width: 992px) 
+  { code:after {content: '992px and up to 1199px';
+			font-family: 'Roboto', sans-serif;
+			font-weight: 100;
+			font-size: 250%;
+			color:white;
+			font-style: normal;
+  }}
+
+
+@media (min-width: 1200px) 
+  { var:after {content: 'large';color:white;}}
+@media (min-width: 1200px) 
+  { code:after {content: '1200px and up';
+			font-family: 'Roboto', sans-serif;
+			font-weight: 100;
+			font-size: 250%;
+			color:white;
+			font-style: normal;
+  }}
+
+
+body {background-color: black}
+
+#header {background-color: black;}
+#header h1 {color: white;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+
+			}
+.port {color:white;
+		font-weight: 700;
+		font-variant: thin;
+		}
+.info {color:gray;
+	 font-weight: 300;
+}
+			
+
+
+/* @media: */
+
+#bmq {background-color: #2F4F4F;
+		margin-bottom: 3px;
+}
+
+#bmq h2 {	
+			color: fuchsia;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 500;
+			font-size: 22px;
+			}
+
+
+#bmq p {
+			text-align: center;
+			}
+
+
+/* viewport size: */
+
+
+#vp {background-color: #2F4F4F;}
+#vp h2 {	
+			color: green;
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 500;
+			font-size: 22px;
+			}
+
+#vp code {
+	background: none;
+	}			
+
+#vp p {
+text-align: center;
+	}			
+
