@@ -24,7 +24,7 @@ media query styles
 
 
 @media (min-width: 768px) 
-  { var:after {content: 'small device';color:white;}}
+  { var:after {content: 'small device';color:black;}}
 
 @media (min-width: 768px) 
   { code:after {content: '768px and up to 991px';
@@ -37,7 +37,7 @@ media query styles
 
 
 @media (min-width: 992px) 
-  { var:after {content: 'medium device';color:white;}}
+  { var:after {content: 'medium device';color:black;}}
 @media (min-width: 992px) 
   { code:after {content: '992px and up to 1199px';
 			font-family: 'Roboto', sans-serif;
@@ -49,7 +49,7 @@ media query styles
 
 
 @media (min-width: 1200px) 
-  { var:after {content: 'large device';color:white;}}
+  { var:after {content: 'large device';color:black;}}
 @media (min-width: 1200px) 
   { code:after {content: '1200px and up';
 			font-family: 'Roboto', sans-serif;
