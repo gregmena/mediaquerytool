@@ -5,7 +5,7 @@ media query styles
 
 
 @media (min-width: 0px) 
-  { var:after {content: 'x-small';
+  { var:after {content: 'extra small device';
 			font-family: 'Roboto', sans-serif;
 			font-weight: 100;
 			font-size: 250%;
@@ -24,7 +24,7 @@ media query styles
 
 
 @media (min-width: 768px) 
-  { var:after {content: 'small';color:white;}}
+  { var:after {content: 'small device';color:white;}}
 
 @media (min-width: 768px) 
   { code:after {content: '768px and up to 991px';
@@ -37,7 +37,7 @@ media query styles
 
 
 @media (min-width: 992px) 
-  { var:after {content: 'medium';color:white;}}
+  { var:after {content: 'medium device';color:white;}}
 @media (min-width: 992px) 
   { code:after {content: '992px and up to 1199px';
 			font-family: 'Roboto', sans-serif;
@@ -49,7 +49,7 @@ media query styles
 
 
 @media (min-width: 1200px) 
-  { var:after {content: 'large';color:white;}}
+  { var:after {content: 'large device';color:white;}}
 @media (min-width: 1200px) 
   { code:after {content: '1200px and up';
 			font-family: 'Roboto', sans-serif;
