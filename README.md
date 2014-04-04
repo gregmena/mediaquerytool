@@ -1,7 +1,4 @@
 mediaquerytool
 ==============
 
-website media query tool
-
-
-<a href="https://github.com/gregmena/mediaquerytool">Viewport and Media Query Site</a>
+<a href="http://gregmena.github.io/mediaquerytool/">Viewport and Media Query Site</a>
